@@ -1,5 +1,8 @@
 {
-    "name": "resemblejs",
+    "name": "@steelydylan/resemblejs",
+    "publishConfig": {
+        "access": "public"
+    },
     "version": "4.1.0",
     "description": "Image analysis and comparison with HTML5",
     "main": "resemble.js",
@@ -41,7 +44,7 @@
         ]
     },
     "optionalDependencies": {
-        "canvas": "2.9.0"
+        "canvas": "^2.11.0"
     },
     "devDependencies": {
         "chai": "^4.3.6",
